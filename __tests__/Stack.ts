@@ -1,4 +1,4 @@
-import Stack from "@code/Stack";
+import Stack from "../03-sort/03-stack";
 
 test("stack", function () {
     const list = new Stack<number>();
