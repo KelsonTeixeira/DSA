@@ -1,4 +1,9 @@
-import maze_solver from "@code/MazeSolver";
+import MazeSolver from "../05-recursion/02-maze-solver";
+
+type Point = {
+  x: number;
+  y: number;
+};
 
 test("maze solver", function () {
     const maze = [
@@ -29,7 +34,7 @@ test("maze solver", function () {
     ];
 
     // there is only one path through
-    const result = maze_solver(maze, "x", { x: 10, y: 0 }, { x: 1, y: 5 });
+    const result = MazeSolver(maze, "x", { x: 10, y: 0 }, { x: 1, y: 5 });
     expect(drawPath(maze, result)).toEqual(drawPath(maze, mazeResult));
 });
 
