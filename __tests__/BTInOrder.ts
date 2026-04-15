@@ -1,8 +1,8 @@
-import bt_in_order from "@code/BTInOrder";
+import inOrderSearch from "../07-trees/02-traversal-in-order";
 import { tree } from "./tree";
 
 test("In order", function () {
-    expect(bt_in_order(tree)).toEqual([
+    expect(inOrderSearch(tree)).toEqual([
         5,
         7,
         10,

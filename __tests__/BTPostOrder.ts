@@ -1,8 +1,8 @@
-import bt_post_order from "@code/BTPostOrder";
+import postOrderSearch from "../07-trees/03-traversal-post-order";
 import { tree } from "./tree";
 
 test("post order", function () {
-    expect(bt_post_order(tree)).toEqual([
+    expect(postOrderSearch(tree)).toEqual([
         7,
         5,
         15,

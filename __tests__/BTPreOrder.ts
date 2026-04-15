@@ -1,8 +1,8 @@
-import bt_pre_order from "@code/BTPreOrder";
+import PreOrderSearch from "../07-trees/01-traversal-pre-order";
 import { tree } from "./tree";
 
 test("Pre order", function () {
-    expect(bt_pre_order(tree)).toEqual([
+    expect(PreOrderSearch(tree)).toEqual([
         20,
         10,
         5,
