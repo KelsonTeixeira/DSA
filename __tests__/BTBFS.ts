@@ -1,4 +1,4 @@
-import bfs from "@code/BTBFS";
+import bfs from "../07-trees/04-breadth-first-search";
 import { tree } from "./tree";
 
 test("bt bfs", function () {
