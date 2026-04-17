@@ -1,4 +1,4 @@
-import dijkstra_list from "@code/DijkstraList";
+import dijkstra_list from "../09-graph/03-dijkstras-shortest-path";
 import { list1 } from "./graph";
 
 test("dijkstra via adj list", function () {

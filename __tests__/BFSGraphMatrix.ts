@@ -1,4 +1,4 @@
-import bfs from "@code/BFSGraphMatrix";
+import bfs from "../09-graph/01-bfs-ad-matrix";
 import { matrix2 } from "./graph";
 
 test("bfs - graph matrix", function () {

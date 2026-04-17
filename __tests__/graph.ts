@@ -1,3 +1,7 @@
+import WeightedAdjacencyList from "../types/WeightedAdjacencyList";
+import WeightedAdjacencyMatrix from "../types/WeigthedAdjacencyMatrix";
+
+
 export const list1: WeightedAdjacencyList = [];
 
 //      (1) --- (4) ---- (5)

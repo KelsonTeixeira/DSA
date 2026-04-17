@@ -1,4 +1,4 @@
-import bfs from "@code/BFSGraphList";
+import bfs from "../09-graph/02-dfs-ad-list";
 import { list2 } from "./graph";
 
 test("bfs - graph", function () {
