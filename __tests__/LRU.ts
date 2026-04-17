@@ -1,4 +1,8 @@
-import LRU from "@code/LRU";
+import LRU from "../10-map/01-LRU";
+type ILRU<K, V> = {
+    update: any,
+    get: any
+}
 
 test("LRU", function () {
     const lru = new LRU<string, number>(3) as ILRU<string, number>;
